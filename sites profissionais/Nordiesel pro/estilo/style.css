@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background-color: white;
+}
+header{
+    background-color: #FAF117;
+}
+p.telefone{
+   
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+
+}
+header>h1{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+
+}
+header>p{
+    text-align: center;
+}
+main{
+    max-width:600px ;
+    min-width: 300px;
+    margin: auto;
+    background-color: yellow;
+}
+article>h1{
+    text-indent: 8px;
+}
+article>p{
+    text-indent: 5px;
+
+}
+article>img{
+    width: 100%;
+    
+}
+article>h1{
+    background-color: #ADA926;
+    font-family:'Bebas Neue', cursive ;
+    font-size: 30px;
+
+}
+article>p{
+background-color: #E0DB31;
+font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    background-color: black
+}
+footer>p{
+    color: white;
+}
