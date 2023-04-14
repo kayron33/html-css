@@ -2,87 +2,58 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
-    background-color: white;
+    background-color: #FBEE64;
+    
 }
 header{
-    background-color: #FAF117;
-    border-radius: 10px;
-   
-}
-nav{
-    background-color:#EDBF28;
-    border-radius: 10px;
-    border-top: 10cm;
-   
-}
+    background-color: black;
+    min-height: 25px;
     
-nav>a{
-    width: 15px;
-    font-size: 15px;
-    background-color: ;
-
+    
 
 }
-
-
 header>h1{
+    color: #FBE81A;
+    font-family:'Bebas Neue', cursive; ;
+    font-size: 91px;
     text-align: center;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 40px;
+
+
 }
 header>p{
+    color: #FBE81A;
     text-align: center;
+    font-size: 35px;
+    
 }
 main{
-    max-width:600px ;
-    min-width: 300px;
-    margin: auto;
-    background-color: yellow;
-}
-
-article>p{
-    text-indent: 5px;
-
-}
-article>img{
-    width: 100%;
     
+    padding: 20px;
+    width: 600px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: white;
+}
+article>p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
 }
 article>h1{
-    background-color: #E0DB31;
-    font-family:'Bebas Neue', cursive ;
-    font-size: 30px;
-    text-indent: 8px;
-
-}
-article>p{
-background-color: #E0DB31;
-font-family: Arial, Helvetica, sans-serif;
-}
-h1.serviço{
-    font-size: 30px;
-    
-    text-indent: 8px;
-    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 aside{
-    background-color:#ADA926;
-    border-radius: 10px;
+    background-color: #FBEE64;
 }
-aside>ul{
-    
-}
-ul.n1{
-    
-    font-size: 19px;
-    border-radius: 10px;
-
-}
-footer{
-    background-color: black
-}
-footer>p{
+aside>h1{
+    background-color: black;
     color: white;
-    
+
 }
